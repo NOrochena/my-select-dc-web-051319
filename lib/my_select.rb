@@ -3,7 +3,9 @@ def my_select(collection)
  arr2 = []
  
  while tick < collection.length
-  arr2.push(yield(collection[tick]))
+  if yield(collection[tick]) == true
+    arr2.push(collection[tick])
+  end
   tick += 1
  end
  arr2
