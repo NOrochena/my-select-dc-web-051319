@@ -6,4 +6,5 @@ def my_select(collection)
   arr2.push(yield(collection[tick]))
   tick += 1
  end
+ arr2
 end
