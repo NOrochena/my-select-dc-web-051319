@@ -1,3 +1,8 @@
 def my_select(collection)
- # your code here!
+ tick = 0
+ 
+ while tick < collection.length
+  
+  tick += 1
+ end
 end
